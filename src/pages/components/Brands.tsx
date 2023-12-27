@@ -31,7 +31,7 @@ const Brands = () => {
       </div>
       <div className="trainer__card">
         <div className="trainer__content">
-          <h4>Muscle MX –[] CBD Infused Fitness Products</h4>
+          <h4>Muscle MX - CBD Infused Fitness Products</h4>
           <hr />
           <p>
           Fitness Brands step back! Make way for Muscle MX. Here’s a Brand that stands tall behind its products. 

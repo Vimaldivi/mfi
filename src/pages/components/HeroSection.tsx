@@ -6,6 +6,7 @@ const HeroSection = () => {
 
     const data = [
         {
+            id: 1,
             image: "/assets/header.png",
             head_1: "Build Your Body &",
             head_2: "Buy for you!",
@@ -19,7 +20,7 @@ const HeroSection = () => {
                 
                 {
                     data.map(
-                        datum => <div className="section__container header__container" id="home">
+                        datum => <div className="section__container header__container" key={datum.id} id="home">
                             <div className="header__image">
                                 <Image src={datum.image} alt="header" width={400} height={400} />
                             </div>
